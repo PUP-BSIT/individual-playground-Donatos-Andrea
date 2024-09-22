@@ -1,11 +1,11 @@
-enum Animal {
-    CAPYBARA = "Capybara",
-    CAT = "Cat",
-    DOG = "Dog",
-    HORSE = "Horse",
-    CHICKEN = "Chicken"
-}
-
+var Animal;
+(function (Animal) {
+    Animal["CAPYBARA"] = "Capybara";
+    Animal["CAT"] = "Cat";
+    Animal["DOG"] = "Dog";
+    Animal["HORSE"] = "Horse";
+    Animal["CHICKEN"] = "Chicken";
+})(Animal || (Animal = {}));
 /*type Profile = {
     name: string;
     role: string;
@@ -21,7 +21,7 @@ const mikaProfile: Profile = {
     role: "Techlead",
     age: 21,
     gender: "Female",
-    birthday: new Date(2003, 5, 15), 
+    birthday: new Date(2003, 5, 15),
 
     print() {
         console.log(`Profile Details:
@@ -33,4 +33,4 @@ const mikaProfile: Profile = {
     }
 }
 
-mikaProfile.print(); */
+mikaProfile.print(); */ 
