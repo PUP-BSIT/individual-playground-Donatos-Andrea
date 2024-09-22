@@ -1,7 +1,7 @@
 enum CitrusMember {
-    NAME = "Mikaella", 
-    GROUPNAME = "Citrus",
-    ROLE = "Techlead",
-    AGE = "21",
-    ACTIVE = true,
+    ANDREA = "drea",
+    MIKAELLA = "mika",
+    KIANLEE = "kian",
+    ELIZA = "eliza",
+    AKISHA = "kisha"
 }
