@@ -7,4 +7,3 @@ document.querySelector("#add")!.addEventListener("click", () => {
   function add(input1: number, input2: number) {
     console.log(input1 + input2);
   }
-  
