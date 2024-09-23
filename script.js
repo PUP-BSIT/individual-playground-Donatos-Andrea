@@ -21,7 +21,7 @@ var snowyOwl = {
     lifespan: "10-12 years",
     gender: "male",
     print: function () {
-        console.log("In my whole life, I have never had a pet that is a ".concat(this.animal, ".  +\n          If I could have one, I would like to have a snowy owl  +\n          because it has a color of ").concat(this.color, " and is a ").concat(this.gender, ".  +\n          Even when it's old, it would still be white.  +\n          Snowy owls have an incredible lifespan of up to ").concat(this.lifespan, ",  +\n          which is amazing. I can grow old with them."));
+        console.log("In my whole life, I have never had a pet that is a ".concat(this.animal, ".+\n          If I could have one, I would like to have a snowy owl  +\n          because it has a color of ").concat(this.color, " and is a ").concat(this.gender, ".+\n          Even when it's old, it would still be white.  +\n          Snowy owls have an incredible lifespan of up to ").concat(this.lifespan, ",+\n          which is amazing. I can grow old with them."));
     },
 };
 var axolotl = {

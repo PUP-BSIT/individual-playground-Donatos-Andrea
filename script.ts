@@ -35,11 +35,11 @@ const snowyOwl: Pets = {
     gender: "male",
     print() {
       console.log(
-        `In my whole life, I have never had a pet that is a ${this.animal}.  +
+        `In my whole life, I have never had a pet that is a ${this.animal}.+
           If I could have one, I would like to have a snowy owl  +
-          because it has a color of ${this.color} and is a ${this.gender}.  +
+          because it has a color of ${this.color} and is a ${this.gender}.+
           Even when it's old, it would still be white.  +
-          Snowy owls have an incredible lifespan of up to ${this.lifespan},  +
+          Snowy owls have an incredible lifespan of up to ${this.lifespan},+
           which is amazing. I can grow old with them.`
       );
     },
